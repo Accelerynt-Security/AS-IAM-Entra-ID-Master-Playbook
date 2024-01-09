@@ -2,7 +2,7 @@
     "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentTemplate.json#",
     "contentVersion": "1.0.0.0",
     "metadata": {
-        "title": "AS-IAM-Master-Playbook", 
+        "title": "AS-IAM-Entra-ID-Master-Playbook", 
         "description": "This playbook is intended to be run from a Microsoft Sentinel incident with account and/or IP entities. It will run two playbooks, revoking the sessions of the related Entra Id user account and adding the it to a named locations list.",
         "prerequisites": "AS-IP-Blocklist-HTTP and AS-Microsoft-Entra-ID-Revoke-User-Sessions-HTTP playbooks must first be deployed. Support for the set up and configuration of each of these items can be found here: https://github.com/Accelerynt-Security/AS-IAM-Master-Playbook",
         "postDeployment": ["Access to the Azure Key Vault must be granted to the playbook","The Microsoft Sentinel Contributor role must be applied to the playbook"],
@@ -18,7 +18,7 @@
     },
     "parameters": {
         "PlaybookName": {
-            "defaultValue":"AS-IAM-Master-Playbook",
+            "defaultValue":"AS-IAM-Entra-ID-Master-Playbook",
             "type": "string"
         },
         "FirstNestedPlaybook": {
