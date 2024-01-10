@@ -23,7 +23,7 @@ This playbook is intended to be run from a Microsoft Sentinel Incident. It will 
                                                                                                                                      
 The following items are required under the template settings during deployment: 
 
-* All four playbooks included in this repository must first be deployed
+* Both of the playbooks included in this repository must first be deployed
 
 
 #
