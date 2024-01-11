@@ -3,7 +3,7 @@
     "contentVersion": "1.0.0.0",
     "metadata": {
         "title": "AS-IAM-Entra-ID-Master-Playbook", 
-        "description": "This playbook is intended to be run from a Microsoft Sentinel incident with account and/or IP entities. It will run two playbooks, revoking the sessions of the related Entra Id user account and adding the it to a named locations list.",
+        "description": "This playbook is intended to be run from a Microsoft Sentinel incident with account and/or IP entities. It will run two playbooks, revoking the sessions of the related Microsoft Entra Id user account and adding the it to a named locations list.",
         "prerequisites": "AS-IP-Blocklist-HTTP and AS-Microsoft-Entra-ID-Revoke-User-Sessions-HTTP playbooks must first be deployed. Support for the set up and configuration of each of these items can be found here: https://github.com/Accelerynt-Security/AS-IAM-Entra-ID-Master-Playbook",
         "lastUpdateTime": "2023-11-10T12:03:07Z",
         "entities": ["Account", "IP"], 
